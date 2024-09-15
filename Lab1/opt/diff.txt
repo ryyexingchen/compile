@@ -1,0 +1,248 @@
+2c2
+< ; ModuleID = 'main.ll'
+---
+> ; ModuleID = 'main_O2.ll'
+11c11
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+56c56,57
+< declare dso_local i32 @__isoc99_scanf(i8*, ...) #1
+---
+> ; Function Attrs: nofree nounwind
+> declare dso_local i32 @__isoc99_scanf(i8* nocapture readonly, ...) local_unnamed_addr #1
+58c59,60
+< declare dso_local i32 @printf(i8*, ...) #1
+---
+> ; Function Attrs: nofree nounwind
+> declare dso_local i32 @printf(i8* nocapture readonly, ...) local_unnamed_addr #1
+61c63
+< attributes #1 = { "correctly-rounded-divide-sqrt-fp-math"="false" "disable-tail-calls"="false" "frame-pointer"="all" "less-precise-fpmad"="false" "no-infs-fp-math"="false" "no-nans-fp-math"="false" "no-signed-zeros-fp-math"="false" "no-trapping-math"="false" "stack-protector-buffer-size"="8" "target-cpu"="x86-64" "target-features"="+cx8,+fxsr,+mmx,+sse,+sse2,+x87" "unsafe-fp-math"="false" "use-soft-float"="false" }
+---
+> attributes #1 = { nofree nounwind "correctly-rounded-divide-sqrt-fp-math"="false" "disable-tail-calls"="false" "frame-pointer"="all" "less-precise-fpmad"="false" "no-infs-fp-math"="false" "no-nans-fp-math"="false" "no-signed-zeros-fp-math"="false" "no-trapping-math"="false" "stack-protector-buffer-size"="8" "target-cpu"="x86-64" "target-features"="+cx8,+fxsr,+mmx,+sse,+sse2,+x87" "unsafe-fp-math"="false" "use-soft-float"="false" }
+69c71
+< ; ModuleID = 'main.ll'
+---
+> ; ModuleID = 'main_O2.ll'
+78c80
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+123c125,126
+< declare dso_local i32 @__isoc99_scanf(i8*, ...) #1
+---
+> ; Function Attrs: nofree nounwind
+> declare dso_local i32 @__isoc99_scanf(i8* nocapture readonly, ...) local_unnamed_addr #1
+125c128,129
+< declare dso_local i32 @printf(i8*, ...) #1
+---
+> ; Function Attrs: nofree nounwind
+> declare dso_local i32 @printf(i8* nocapture readonly, ...) local_unnamed_addr #1
+128c132
+< attributes #1 = { "correctly-rounded-divide-sqrt-fp-math"="false" "disable-tail-calls"="false" "frame-pointer"="all" "less-precise-fpmad"="false" "no-infs-fp-math"="false" "no-nans-fp-math"="false" "no-signed-zeros-fp-math"="false" "no-trapping-math"="false" "stack-protector-buffer-size"="8" "target-cpu"="x86-64" "target-features"="+cx8,+fxsr,+mmx,+sse,+sse2,+x87" "unsafe-fp-math"="false" "use-soft-float"="false" }
+---
+> attributes #1 = { nofree nounwind "correctly-rounded-divide-sqrt-fp-math"="false" "disable-tail-calls"="false" "frame-pointer"="all" "less-precise-fpmad"="false" "no-infs-fp-math"="false" "no-nans-fp-math"="false" "no-signed-zeros-fp-math"="false" "no-trapping-math"="false" "stack-protector-buffer-size"="8" "target-cpu"="x86-64" "target-features"="+cx8,+fxsr,+mmx,+sse,+sse2,+x87" "unsafe-fp-math"="false" "use-soft-float"="false" }
+137c141
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+183c187
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+229c233
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+275c279
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+321c325
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+367c371
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+505c509
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+551c555
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+597c601
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+643c647
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+689c693
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+735c739
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+781c785
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+827c831
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+873c877
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+919c923
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+965c969
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+1011c1015
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+1057c1061
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+1103c1107
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+1149c1153
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+1195c1199
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+1241c1245
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+1287c1291
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+1333c1337
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+1379c1383
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+1425c1429
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+1471c1475
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+1517c1521
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+1563c1567
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+1609c1613
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+1655c1659
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+1701c1705
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+1747c1751
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+1792c1796
+< ; ModuleID = 'main.ll'
+---
+> ; ModuleID = 'main_O2.ll'
+1801c1805
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+1846c1850,1851
+< declare dso_local i32 @__isoc99_scanf(i8*, ...) #1
+---
+> ; Function Attrs: nofree nounwind
+> declare dso_local i32 @__isoc99_scanf(i8* nocapture readonly, ...) local_unnamed_addr #1
+1848c1853,1854
+< declare dso_local i32 @printf(i8*, ...) #1
+---
+> ; Function Attrs: nofree nounwind
+> declare dso_local i32 @printf(i8* nocapture readonly, ...) local_unnamed_addr #1
+1851c1857
+< attributes #1 = { "correctly-rounded-divide-sqrt-fp-math"="false" "disable-tail-calls"="false" "frame-pointer"="all" "less-precise-fpmad"="false" "no-infs-fp-math"="false" "no-nans-fp-math"="false" "no-signed-zeros-fp-math"="false" "no-trapping-math"="false" "stack-protector-buffer-size"="8" "target-cpu"="x86-64" "target-features"="+cx8,+fxsr,+mmx,+sse,+sse2,+x87" "unsafe-fp-math"="false" "use-soft-float"="false" }
+---
+> attributes #1 = { nofree nounwind "correctly-rounded-divide-sqrt-fp-math"="false" "disable-tail-calls"="false" "frame-pointer"="all" "less-precise-fpmad"="false" "no-infs-fp-math"="false" "no-nans-fp-math"="false" "no-signed-zeros-fp-math"="false" "no-trapping-math"="false" "stack-protector-buffer-size"="8" "target-cpu"="x86-64" "target-features"="+cx8,+fxsr,+mmx,+sse,+sse2,+x87" "unsafe-fp-math"="false" "use-soft-float"="false" }
+1859c1865
+< ; ModuleID = 'main.ll'
+---
+> ; ModuleID = 'main_O2.ll'
+1868c1874
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+1913c1919,1920
+< declare dso_local i32 @__isoc99_scanf(i8*, ...) #1
+---
+> ; Function Attrs: nofree nounwind
+> declare dso_local i32 @__isoc99_scanf(i8* nocapture readonly, ...) local_unnamed_addr #1
+1915c1922,1923
+< declare dso_local i32 @printf(i8*, ...) #1
+---
+> ; Function Attrs: nofree nounwind
+> declare dso_local i32 @printf(i8* nocapture readonly, ...) local_unnamed_addr #1
+1918c1926
+< attributes #1 = { "correctly-rounded-divide-sqrt-fp-math"="false" "disable-tail-calls"="false" "frame-pointer"="all" "less-precise-fpmad"="false" "no-infs-fp-math"="false" "no-nans-fp-math"="false" "no-signed-zeros-fp-math"="false" "no-trapping-math"="false" "stack-protector-buffer-size"="8" "target-cpu"="x86-64" "target-features"="+cx8,+fxsr,+mmx,+sse,+sse2,+x87" "unsafe-fp-math"="false" "use-soft-float"="false" }
+---
+> attributes #1 = { nofree nounwind "correctly-rounded-divide-sqrt-fp-math"="false" "disable-tail-calls"="false" "frame-pointer"="all" "less-precise-fpmad"="false" "no-infs-fp-math"="false" "no-nans-fp-math"="false" "no-signed-zeros-fp-math"="false" "no-trapping-math"="false" "stack-protector-buffer-size"="8" "target-cpu"="x86-64" "target-features"="+cx8,+fxsr,+mmx,+sse,+sse2,+x87" "unsafe-fp-math"="false" "use-soft-float"="false" }
+1927c1935
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+1973c1981
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+2019c2027
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+2065c2073
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+2111c2119
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
+2157c2165
+< define dso_local i32 @main() #0 {
+---
+> define dso_local i32 @main() local_unnamed_addr #0 {
